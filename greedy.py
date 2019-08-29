@@ -15,7 +15,7 @@ while(1):
         bill1 = int(money // 1)
         totalCoin =  bill25 + bill10 + bill5 + bill1
         print('You need a total amount of ',totalCoin,' coins')
-        print(bill25, 'quarters ', bill10,' dimes ', bill5,' nickels ', bill1,' pennies ')
+        #print(bill25, 'quarters ', bill10,' dimes ', bill5,' nickels ', bill1,' pennies ')
 #Check for continuation
         if input('Continue? y/n') == 'n':
             break
